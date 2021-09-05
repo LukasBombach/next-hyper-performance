@@ -13,7 +13,12 @@ By using portals, it is possible to use a single render root, i.e. only one reco
 ## Todo
 
 - [x] Violate Next config to inject custom clientjs
-- [ ] Prevent React from rerendering the root component
-- [ ] Make React render selected components via portals
+- [x] Prevent React from rerendering the root component
+- [x] Make React render selected components via portals
+
+> **crap.**
+>
+> _Just found out Portals cannot by hydrated so if you want to run hydrate a button element with a portal a button gets rendered inside the button instead of actually hydrating it_
+
 - [ ] Add react context to prove everything is rendered in sync
 - [ ] make components load as webpack chunks and delay hydration to prove progressive rendering
