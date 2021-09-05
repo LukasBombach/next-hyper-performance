@@ -9,10 +9,7 @@ module.exports = {
 
       config.entry = async () => {
         const entry = await originalEntry();
-        entry["main"] = resolve(
-          process.cwd(),
-          "lib/hyper-performance/client.tsx"
-        );
+        entry["main"] = resolve(process.cwd(), "hyper-performance/client.tsx");
         return entry;
       };
     }
