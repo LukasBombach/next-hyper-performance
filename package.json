@@ -1,0 +1,8 @@
+{
+  "name": "next-hyper-performance",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LukasBombach/next-hyper-performance",
+  "author": "Lukas Bombach <lukas.bombach@googlemail.com>",
+  "license": "MIT"
+}
